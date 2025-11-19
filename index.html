@@ -5,15 +5,29 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Money Master</title>
     <!--tailwind -->
-
-    <link
-      href="https://cdn.jsdelivr.net/npm/daisyui@2.50.1/dist/full.css"
-      rel="stylesheet"
-      type="text/css"
-    />
     <script src="https://cdn.tailwindcss.com"></script>
   </head>
   <body>
+    <!-- heading -->
+    <h1 class="text-4xl text-center font-bold py-4">Money Master</h1>
+    <main class="">
+      <div class="grid grid-cols-2 gap-4 h-full px-6">
+        <!-- left side image -->
+        <div class="h-[600px]">
+          <img
+            src="./assets/money.jpeg"
+            alt=""
+            class="h-full w-full object-cover"
+          />
+        </div>
+
+        <!-- right side calculation -->
+        <div class="h-full flex items-center justify-center">
+          <p>Right side content</p>
+        </div>
+      </div>
+    </main>
+
     <!-- js -->
     <script src="./utilities.js"></script>
     <script src="./app.js"></script>
